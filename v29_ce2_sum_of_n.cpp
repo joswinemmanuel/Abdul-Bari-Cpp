@@ -14,3 +14,5 @@ int SumOfN(int n)
 int main(){
     printf("%d", SumOfN(5));
 }
+
+// 15
