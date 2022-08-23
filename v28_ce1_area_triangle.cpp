@@ -16,3 +16,5 @@ void area()
 int main(){
     area();
 }
+
+// 17.5 output
