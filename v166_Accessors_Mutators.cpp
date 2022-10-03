@@ -6,12 +6,22 @@ class Rectangle {
         int length;
         int bredth;
     public:
-        void set_length(int l) {   
-            length = l;             // Mutator
+        void set_length(int l) { 
+            if(l >= 0)
+                length = l;             // Mutator
+            else {
+                cout << "Length cannot be negative, set to default value 1\n";
+                length = 1;
+            }
         }
 
         void set_bredth(int b) {    // Mutator
-            bredth = b;
+            if(b >= 0)
+                bredth = b;
+            else {
+                cout << "Bredth cannot be negative, set to default value 1\n";
+                bredth = 1;
+            }
         }
 
         float area() {
