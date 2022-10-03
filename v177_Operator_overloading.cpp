@@ -23,7 +23,7 @@ int main() {
     c2.real = 10;
     c2.imaginary = 5;
     c3 = c1 + c2;
-    cout << "c3 = " << c3.real << "i + " << c3.imaginary << "\n";
+    cout << "c3 = " << c3.real << " +i" << c3.imaginary << "\n";
 }
 
 // c3 = 15i + 15
